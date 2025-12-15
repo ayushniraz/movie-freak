@@ -18,7 +18,7 @@ const Nav = () => {
               <a
                 className="font-inter flex items-center gap-2 rounded-lg bg-black px-8 py-4 text-center text-white hover:bg-gray-800"
                 target="_blank"
-                href="https://github.com/ayushnirz"
+                href="https://github.com/ayushniraz"
               >
                 <svg
                   xmlns="[http://www.w3.org/2000/svg](http://www.w3.org/2000/svg)"
