@@ -1,4 +1,4 @@
-const MovieList = ({ movies }) => {
+const MovieList = ({ movies }:any) => {
   return (
     <>
       <section>
@@ -14,7 +14,7 @@ const MovieList = ({ movies }) => {
           <div className="grid grid-cols-2 justify-center justify-items-center gap-5 sm:justify-items-stretch md:grid-cols-2 md:gap-8">
             {movies ? (
               <>
-                {movies.map((eachMovie) => {
+                {movies.map((eachMovie:any) => {
                   return (
                     <>
                       <div className="grid w-full grid-cols-1 gap-6 rounded-2xl border border-gray-200 bg-white p-6 shadow-sm transition-all hover:shadow-lg md:grid-cols-2">

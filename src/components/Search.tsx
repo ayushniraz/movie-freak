@@ -59,7 +59,7 @@ const yearList = [
   "1980",
 ];
 
-const Search = ({ setMovies }) => {
+const Search = ({ setMovies }:any) => {
   const { register, handleSubmit } = useForm<SearchInputs>();
 
   useEffect(() => {

@@ -1,6 +1,6 @@
 import Search from "./Search";
 
-const Header = ({setMovies}) => {
+const Header = ({setMovies}:any) => {
   return (
     <>
       <header>
